@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1001,
+        "title": "Unable to login system",
+        "description": "The customer reports that they are unable to login into the system after multiple attempts. Error messages appear intermittently and need urgent resolution.",
+        "customer": "Alice Johnson",
+        "priority": "HIGH PRIORITY",
+        "status": "Open",
+        "createdAt": "20/09/2025"
+    },
+    {
+        "id": 1002,
+        "title": "Payment not processing checkout",
+        "description": "When trying to complete the purchase, the payment fails and no confirmation is sent. Customer tried multiple payment methods without success.",
+        "customer": "Bob Smith",
+        "priority": "HIGH PRIORITY",
+        "status": "In Progress",
+        "createdAt": "20/09/2025"
+    },
+    {
+        "id": 1003,
+        "title": "Buttons overlapping small screens",
+        "description": "UI buttons overlap on devices with small screen resolution, making it difficult to navigate. Needs responsive adjustments.",
+        "customer": "Charlie Davis",
+        "priority": "MEDIUM PRIORITY",
+        "status": "Open",
+        "createdAt": "21/09/2025"
+    },
+    {
+        "id": 1004,
+        "title": "Dashboard loading very slow",
+        "description": "Dashboard takes an excessive amount of time to load, affecting productivity. Performance optimization required.",
+        "customer": "Diana Miller",
+        "priority": "LOW PRIORITY",
+        "status": "Open",
+        "createdAt": "21/09/2025"
+    },
+    {
+        "id": 1005,
+        "title": "Forgot password email missing",
+        "description": "Customers are not receiving password reset emails. Tested multiple accounts and email domains, issue persists.",
+        "customer": "Ethan Wilson",
+        "priority": "HIGH PRIORITY",
+        "status": "Open",
+        "createdAt": "22/09/2025"
+    },
+    {
+        "id": 1006,
+        "title": "Server error submitting forms",
+        "description": "Submitting forms on the platform results in server error 500. Logs need to be checked for root cause.",
+        "customer": "Fiona Brown",
+        "priority": "HIGH PRIORITY",
+        "status": "In Progress",
+        "createdAt": "22/09/2025"
+    },
+    {
+        "id": 1007,
+        "title": "Request for dark mode",
+        "description": "Customer requested dark mode support for better usability during night time. Feature enhancement needed.",
+        "customer": "George White",
+        "priority": "LOW PRIORITY",
+        "status": "Open",
+        "createdAt": "23/09/2025"
+    },
+    {
+        "id": 1008,
+        "title": "Email notifications not received",
+        "description": "Users are not receiving email notifications for updates or alerts. Investigate mail server and delivery logs.",
+        "customer": "Hannah Clark",
+        "priority": "MEDIUM PRIORITY",
+        "status": "Open",
+        "createdAt": "23/09/2025"
+    },
+    {
+        "id": 1009,
+        "title": "App crashing on Android",
+        "description": "Mobile application crashes immediately on Android version 14. Users cannot use the app. Crash logs available for analysis.",
+        "customer": "Ian Martinez",
+        "priority": "HIGH PRIORITY",
+        "status": "In Progress",
+        "createdAt": "24/09/2025"
+    },
+    {
+        "id": 1010,
+        "title": "Unable to download reports",
+        "description": "PDF reports cannot be downloaded from the reporting section. Multiple users affected. Urgent fix required.",
+        "customer": "Julia Roberts",
+        "priority": "MEDIUM PRIORITY",
+        "status": "Open",
+        "createdAt": "24/09/2025"
+    }
+]
