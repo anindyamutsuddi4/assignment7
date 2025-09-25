@@ -37,17 +37,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: transform 300ms;
 
 }
 
-button:hover {
-  background-color: #9597c2;
+/* button:hover {
+  
   transform: scale(0.90);
 
-}
+} */
 
 button:focus,
 button:focus-visible {
