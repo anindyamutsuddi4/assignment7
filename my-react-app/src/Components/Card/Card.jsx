@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import dot2 from "../../assets/Ellipse 22 (1).png"
 import { toast } from 'react-toastify';
-const Card = ({func, x }) => {
+const Card = ({ func, x }) => {
     //console.log(x)
+    //data1(x)
     return (
 
         <div className=' '>
@@ -13,7 +14,7 @@ const Card = ({func, x }) => {
             <div onClick={()=>{
                 func(x)
                 toast("Added to Task Status")
-                }} className='flex-1 p-4 pt-5 pb-5 bg-white rounded-md shadow-[1px_1px_5px_rgba(0,0,0,0.2)] flex flex-col gap-[6px]'>
+                }} className='flex-1 p-4 pt-5 pb-5 bg-white rounded-md shadow-[1px_1px_5px_rgba(0,0,0,0.2)] flex flex-col gap-[6px] h-[100%]'>
                 <div className='flex justify-between'>
                     <div className='inter font-semibold text-[16px] text-[#001931]'>{x.title}</div>
                     <div className={`flex  inter ${x.status === "Open" ? "text-[#0B5E06]" : "text-[#9C7700]"} text-[13px] font-[500]  pl-[9px] pr-[9px] pt-[2px] pb-[2px] items-center justify-center gap-[4px] rounded-2xl ${x.status === "Open"
@@ -25,8 +26,8 @@ const Card = ({func, x }) => {
                                 : dot2}
                             alt="" />{x.status}</div>
                 </div>
-                <div className='text-[#627382] inter text-[14px]'>{x.description}</div>
-                <div className='flex justify-between'>
+                <div className='text-[#627382] inter text-[14px] h-[100%]'>{x.description}</div>
+                <div className='flex justify-between h-[100%]'>
                     <div className='flex gap-4'>
                         <div className='text-[#627382]  text-[13px] inter'>#{x.id}</div>
                         <div className={`inter  text-[13px] font-medium ${x.priority === "HIGH PRIORITY" ? "text-[#F83044]" : x.priority === "MEDIUM PRIORITY" ? "text-[#FEBB0C]" : "text-[#02A53B]"}`}>{x.priority}</div></div>
