@@ -14,10 +14,10 @@ const Card = ({ func, x }) => {
             <div onClick={()=>{
                 func(x)
                 toast("Added to Task Status")
-                }} className='flex-1 p-4 pt-5 pb-5 bg-white rounded-md shadow-[1px_1px_5px_rgba(0,0,0,0.2)] flex flex-col gap-[6px] h-[100%]'>
+                }} className='flex-1 p-2 md:p-4 md:pt-5  md:pb-5 bg-white rounded-md shadow-[1px_1px_5px_rgba(0,0,0,0.2)] flex flex-col md:gap-[6px] md:h-[100%]'>
                 <div className='flex justify-between'>
-                    <div className='inter font-semibold text-[16px] text-[#001931]'>{x.title}</div>
-                    <div className={`flex  inter ${x.status === "Open" ? "text-[#0B5E06]" : "text-[#9C7700]"} text-[13px] font-[500]  pl-[9px] pr-[9px] pt-[2px] pb-[2px] items-center justify-center gap-[4px] rounded-2xl ${x.status === "Open"
+                    <div className='inter font-semibold text-[9px] md:text-[16px] text-[#001931]'>{x.title}</div>
+                    <div className={`flex  inter ${x.status === "Open" ? "text-[#0B5E06]" : "text-[#9C7700]"} text-[8px] md:text-[13px] md:font-[500] pl-[5px] pr-[5px] pt-[2px] pb-[2px] md:pl-[9px] md:pr-[9px] md:pt-[2px] md:pb-[2px] items-center justify-center gap-[2px] md:gap-[4px] rounded-2xl ${x.status === "Open"
                         ? "bg-[#B9F8CF]"
                         : "bg-[#F8F3B9]"} `}>
                         <img className='h-3'
@@ -26,14 +26,14 @@ const Card = ({ func, x }) => {
                                 : dot2}
                             alt="" />{x.status}</div>
                 </div>
-                <div className='text-[#627382] inter text-[14px] h-[100%]'>{x.description}</div>
+                <div className='text-[#627382] inter text-[9px] md:text-[14px] '>{x.description}</div>
                 <div className='flex justify-between h-[100%]'>
-                    <div className='flex gap-4'>
-                        <div className='text-[#627382]  text-[13px] inter'>#{x.id}</div>
-                        <div className={`inter  text-[13px] font-medium ${x.priority === "HIGH PRIORITY" ? "text-[#F83044]" : x.priority === "MEDIUM PRIORITY" ? "text-[#FEBB0C]" : "text-[#02A53B]"}`}>{x.priority}</div></div>
-                    <div className='flex gap-4 inter text-[#627382] text-[13px]'>
+                    <div className='flex gap-2 md:gap-4'>
+                        <div className='text-[#627382] text-[8px] md:text-[13px] inter'>#{x.id}</div>
+                        <div className={`inter text-[8px] md:text-[13px] font-medium ${x.priority === "HIGH PRIORITY" ? "text-[#F83044]" : x.priority === "MEDIUM PRIORITY" ? "text-[#FEBB0C]" : "text-[#02A53B]"}`}>{x.priority}</div></div>
+                    <div className='flex gap-2 md:gap-4 inter text-[#627382] text-[8px] md:text-[13px]'>
                         <div>{x.customer}</div>
-                        <div className='text-[#627382] text-[13px] inter'>    <FontAwesomeIcon icon={faCalendar} className="text-[#627382] text-md" />
+                        <div className='text-[#627382] text-[8px] md:text-[13px] inter'>    <FontAwesomeIcon icon={faCalendar} className="text-[#627382] text-md" />
                             {x.createdAt}</div></div>
                 </div>
             </div>

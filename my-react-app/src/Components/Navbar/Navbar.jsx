@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div>Blog</div>
                 <div>Download</div>
                 <div>Contact</div>
-                <button className='bg-gradient-to-r  from-[#632EE3] to-[#9F62F2] text-white'>+ New Ticket</button>
+                <button className='bg-gradient-to-r  from-[#632EE3] to-[#9F62F2] text-white p-[2px] md:p-2 rounded-[4px] md:rounded-[8px]'>+ New Ticket</button>
             </div>
         </div>
     );

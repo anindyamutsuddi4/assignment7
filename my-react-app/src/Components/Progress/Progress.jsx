@@ -4,7 +4,7 @@ const Progress = ({bill,pro}) => {
    // console.log(pro)
    // console.log(pro.length)
     return (
-        <div className='flex md:gap-3 gap-[6px] pl-[10px] pr-[10px] md:mb-[55px] md:pl-[65px] md:pr-[65px]'>
+        <div className='flex md:gap-3 gap-[6px] pl-[10px] pr-[10px] mb-[12px] md:mb-[55px] md:pl-[65px] md:pr-[65px]'>
             <div className='flex rounded-lg inter justify-center items-center mx-auto flex-1 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
                 <div className='h-full w-[60px] md:w-[270px]'>
                     <img className='h-full w-fit ' src={user} alt="" />
